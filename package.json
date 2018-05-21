@@ -4,11 +4,20 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "node-thermal-printer": "^2.0.0"
+    "body-parser": "^1.18.3",
+    "escpos": "^2.4.9",
+    "express": "^4.16.3",
+    "iconv-lite": "^0.4.23",
+    "node-gyp": "^3.6.2",
+    "node-printer": "^1.0.2",
+    "node-thermal-printer": "^2.0.0",
+    "rebuild": "^0.1.2",
+    "sharp": "github:lovell/sharp"
   }
 }
